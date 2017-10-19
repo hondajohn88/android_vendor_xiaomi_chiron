@@ -134,7 +134,18 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libmmcamera_chiron_ov5675_primax_eeprom.so:system/vendor/lib/libmmcamera_chiron_ov5675_primax_eeprom.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libmmcamera_chiron_ov5675_qtech.so:system/vendor/lib/libmmcamera_chiron_ov5675_qtech.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libmmcamera_chiron_ov5675_qtech_eeprom.so:system/vendor/lib/libmmcamera_chiron_ov5675_qtech_eeprom.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib64/sensors.elliptic.so:system/vendor/lib64/sensors.elliptic.so
+    vendor/xiaomi/chiron/proprietary/vendor/lib64/sensors.elliptic.so:system/vendor/lib64/sensors.elliptic.so \
+    vendor/xiaomi/chiron/proprietary/bin/usf_proximity:system/bin/usf_proximity \
+    vendor/xiaomi/chiron/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_apps_mtp.cfg:system/etc/usf/proximity/cfg_mtp/usf_proximity_apps_mtp.cfg \
+    vendor/xiaomi/chiron/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp.cfg:system/etc/usf/proximity/cfg_mtp/usf_proximity_mtp.cfg \
+    vendor/xiaomi/chiron/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_algo_transparent_data.bin:system/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_algo_transparent_data.bin \
+    vendor/xiaomi/chiron/proprietary/lib/libultrasound.so:system/lib/libultrasound.so \
+    vendor/xiaomi/chiron/proprietary/lib64/libultrasound.so:system/lib64/libultrasound.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib/libproxadapter.so:system/vendor/lib/libproxadapter.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib/libproxsockadapter.so:system/vendor/lib/libproxsockadapter.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib64/libproxadapter.so:system/vendor/lib64/libproxadapter.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib64/libproxsockadapter.so:system/vendor/lib64/libproxsockadapter.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib64/libqcproximity.so:system/vendor/lib64/libqcproximity.so
 
 PRODUCT_PACKAGES += \
     jdi_fhd_video_dsi_panel_ct \
