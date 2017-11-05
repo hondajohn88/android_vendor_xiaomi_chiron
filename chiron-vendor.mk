@@ -143,7 +143,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chiron/proprietary/lib64/liblistensoundmodel2.so:system/lib64/liblistensoundmodel2.so \
     vendor/xiaomi/chiron/proprietary/lib/libsurround_3mic_proc.so:system/lib/libsurround_3mic_proc.so \
     vendor/xiaomi/chiron/proprietary/lib64/sensors.hal.tof.so:system/lib64/sensors.hal.tof.so \
-    vendor/xiaomi/chiron/proprietary/lib/:system/lib/sensors.hal.tof.so
+    vendor/xiaomi/chiron/proprietary/lib/sensors.hal.tof.so:system/lib/sensors.hal.tof.so
 
 PRODUCT_PACKAGES += \
     jdi_fhd_video_dsi_panel_ct \
