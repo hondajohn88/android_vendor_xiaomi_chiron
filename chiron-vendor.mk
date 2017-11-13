@@ -40,7 +40,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chiron/proprietary/etc/firmware/tas2559_s_uCDSP.bin:system/etc/firmware/tas2559_s_uCDSP.bin \
     vendor/xiaomi/chiron/proprietary/etc/firmware/tas2559_uCDSP.bin:system/etc/firmware/tas2559_uCDSP.bin \
     vendor/xiaomi/chiron/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
-    vendor/xiaomi/chiron/proprietary/lib64/libnotifyaudiohal.so:system/lib64/libnotifyaudiohal.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libSonyIMX386PdafLibrary.so:system/vendor/lib/libSonyIMX386PdafLibrary.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libactuator_chiron_imx386_ak7372_semco.so:system/vendor/lib/libactuator_chiron_imx386_ak7372_semco.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_4K_preview.so:system/vendor/lib/libchromatix_chiron_imx386_semco_4K_preview.so \
@@ -135,17 +134,32 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libmmcamera_chiron_ov5675_qtech.so:system/vendor/lib/libmmcamera_chiron_ov5675_qtech.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libmmcamera_chiron_ov5675_qtech_eeprom.so:system/vendor/lib/libmmcamera_chiron_ov5675_qtech_eeprom.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib64/sensors.elliptic.so:system/vendor/lib64/sensors.elliptic.so \
-    vendor/xiaomi/chiron/proprietary/bin/usf_proximity:system/bin/usf_proximity \
+    vendor/xiaomi/chiron/proprietary/lib/libultrasound.so:system/lib/libultrasound.so \
+    vendor/xiaomi/chiron/proprietary/lib64/libultrasound.so:system/lib64/libultrasound.so \
+    vendor/xiaomi/chiron/proprietary/lib/liblistenjni.so:system/lib/liblistenjni.so \
+    vendor/xiaomi/chiron/proprietary/lib/liblistensoundmodel2.so:system/lib/liblistensoundmodel2.so \
+    vendor/xiaomi/chiron/proprietary/lib64/liblistenjni.so:system/lib64/liblistenjni.so \
+    vendor/xiaomi/chiron/proprietary/lib64/liblistensoundmodel2.so:system/lib64/liblistensoundmodel2.so \
+    vendor/xiaomi/chiron/proprietary/lib/libsurround_3mic_proc.so:system/lib/libsurround_3mic_proc.so \
+    vendor/xiaomi/chiron/proprietary/lib/sensors.hal.tof.so:system/lib/sensors.hal.tof.so \
+    vendor/xiaomi/chiron/proprietary/lib64/sensors.hal.tof.so:system/lib64/sensors.hal.tof.so \
+    vendor/xiaomi/chiron/proprietary/lib/modules/modules.dep.bb:system/lib/modules/modules.dep.bb \
+    vendor/xiaomi/chiron/proprietary/vendor/lib64/libnotifyaudiohal.so:system/vendor/lib64/libnotifyaudiohal.so \
+    vendor/xiaomi/chiron/proprietary/etc/usf/form_factor_mtp.cfg:system/etc/usf/form_factor_mtp.cfg \
+    vendor/xiaomi/chiron/proprietary/etc/usf/readme.txt:system/etc/usf/readme.txt \
+    vendor/xiaomi/chiron/proprietary/etc/usf/version.txt:system/etc/usf/version.txt \
+    vendor/xiaomi/chiron/proprietary/etc/usf/mixer/mixer_paths_mtp.xml:system/etc/usf/mixer/mixer_paths_mtp.xml \
+    vendor/xiaomi/chiron/proprietary/etc/usf/proximity/cfg_mtp/usf_pocket_apps_mtp.cfg:system/etc/usf/proximity/cfg_mtp/usf_pocket_apps_mtp.cfg \
+    vendor/xiaomi/chiron/proprietary/etc/usf/proximity/cfg_mtp/usf_pocket_mtp.cfg:system/etc/usf/proximity/cfg_mtp/usf_pocket_mtp.cfg \
+    vendor/xiaomi/chiron/proprietary/etc/usf/proximity/cfg_mtp/usf_pocket_mtp_algo_transparent_data.bin:system/etc/usf/proximity/cfg_mtp/usf_pocket_mtp_algo_transparent_data.bin \
     vendor/xiaomi/chiron/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_apps_mtp.cfg:system/etc/usf/proximity/cfg_mtp/usf_proximity_apps_mtp.cfg \
     vendor/xiaomi/chiron/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp.cfg:system/etc/usf/proximity/cfg_mtp/usf_proximity_mtp.cfg \
     vendor/xiaomi/chiron/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_algo_transparent_data.bin:system/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_algo_transparent_data.bin \
-    vendor/xiaomi/chiron/proprietary/lib/libultrasound.so:system/lib/libultrasound.so \
-    vendor/xiaomi/chiron/proprietary/lib64/libultrasound.so:system/lib64/libultrasound.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib/libproxadapter.so:system/vendor/lib/libproxadapter.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib/libproxsockadapter.so:system/vendor/lib/libproxsockadapter.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib64/libproxadapter.so:system/vendor/lib64/libproxadapter.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib64/libproxsockadapter.so:system/vendor/lib64/libproxsockadapter.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib64/libqcproximity.so:system/vendor/lib64/libqcproximity.so
+    vendor/xiaomi/chiron/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_debug.cfg:system/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_debug.cfg \
+    vendor/xiaomi/chiron/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_rx_transparent_data.bin:system/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_rx_transparent_data.bin \
+    vendor/xiaomi/chiron/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_tx_transparent_data.bin:system/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_tx_transparent_data.bin \
+    vendor/xiaomi/chiron/proprietary/etc/usf/proximity/cfg_mtp/usf_ranging_apps_mtp.cfg:system/etc/usf/proximity/cfg_mtp/usf_ranging_apps_mtp.cfg \
+    vendor/xiaomi/chiron/proprietary/etc/usf/proximity/cfg_mtp/usf_ranging_mtp_algo_transparent_data.bin:system/etc/usf/proximity/cfg_mtp/usf_ranging_mtp_algo_transparent_data.bin
 
 PRODUCT_PACKAGES += \
     jdi_fhd_video_dsi_panel_ct \
