@@ -144,22 +144,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chiron/proprietary/lib/sensors.hal.tof.so:system/lib/sensors.hal.tof.so \
     vendor/xiaomi/chiron/proprietary/lib64/sensors.hal.tof.so:system/lib64/sensors.hal.tof.so \
     vendor/xiaomi/chiron/proprietary/lib/modules/modules.dep.bb:system/lib/modules/modules.dep.bb \
-    vendor/xiaomi/chiron/proprietary/vendor/lib64/libnotifyaudiohal.so:system/vendor/lib64/libnotifyaudiohal.so \
-    vendor/xiaomi/chiron/proprietary/etc/usf/form_factor_mtp.cfg:system/etc/usf/form_factor_mtp.cfg \
-    vendor/xiaomi/chiron/proprietary/etc/usf/readme.txt:system/etc/usf/readme.txt \
-    vendor/xiaomi/chiron/proprietary/etc/usf/version.txt:system/etc/usf/version.txt \
-    vendor/xiaomi/chiron/proprietary/etc/usf/mixer/mixer_paths_mtp.xml:system/etc/usf/mixer/mixer_paths_mtp.xml \
-    vendor/xiaomi/chiron/proprietary/etc/usf/proximity/cfg_mtp/usf_pocket_apps_mtp.cfg:system/etc/usf/proximity/cfg_mtp/usf_pocket_apps_mtp.cfg \
-    vendor/xiaomi/chiron/proprietary/etc/usf/proximity/cfg_mtp/usf_pocket_mtp.cfg:system/etc/usf/proximity/cfg_mtp/usf_pocket_mtp.cfg \
-    vendor/xiaomi/chiron/proprietary/etc/usf/proximity/cfg_mtp/usf_pocket_mtp_algo_transparent_data.bin:system/etc/usf/proximity/cfg_mtp/usf_pocket_mtp_algo_transparent_data.bin \
-    vendor/xiaomi/chiron/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_apps_mtp.cfg:system/etc/usf/proximity/cfg_mtp/usf_proximity_apps_mtp.cfg \
-    vendor/xiaomi/chiron/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp.cfg:system/etc/usf/proximity/cfg_mtp/usf_proximity_mtp.cfg \
-    vendor/xiaomi/chiron/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_algo_transparent_data.bin:system/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_algo_transparent_data.bin \
-    vendor/xiaomi/chiron/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_debug.cfg:system/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_debug.cfg \
-    vendor/xiaomi/chiron/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_rx_transparent_data.bin:system/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_rx_transparent_data.bin \
-    vendor/xiaomi/chiron/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_tx_transparent_data.bin:system/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_tx_transparent_data.bin \
-    vendor/xiaomi/chiron/proprietary/etc/usf/proximity/cfg_mtp/usf_ranging_apps_mtp.cfg:system/etc/usf/proximity/cfg_mtp/usf_ranging_apps_mtp.cfg \
-    vendor/xiaomi/chiron/proprietary/etc/usf/proximity/cfg_mtp/usf_ranging_mtp_algo_transparent_data.bin:system/etc/usf/proximity/cfg_mtp/usf_ranging_mtp_algo_transparent_data.bin
+    vendor/xiaomi/chiron/proprietary/vendor/lib64/libnotifyaudiohal.so:system/vendor/lib64/libnotifyaudiohal.so
 
 PRODUCT_PACKAGES += \
     jdi_fhd_video_dsi_panel_ct \
