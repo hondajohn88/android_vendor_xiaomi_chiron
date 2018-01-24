@@ -54,14 +54,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chiron/proprietary/etc/acdbdata/Forte/Forte_Speaker_cal.acdb:system/etc/acdbdata/Forte/Forte_Speaker_cal.acdb \
     vendor/xiaomi/chiron/proprietary/etc/acdbdata/Forte/Forte_workspaceFile.qwsp:system/etc/acdbdata/Forte/Forte_workspaceFile.qwsp \
     vendor/xiaomi/chiron/proprietary/etc/acdbdata/adsp_avs_config.acdb:system/etc/acdbdata/adsp_avs_config.acdb \
-    vendor/xiaomi/chiron/proprietary/etc/acdbdata/ChironS/Forte_ChironS_Bluetooth_cal.acdb:system/etc/acdbdata/ChironS/Forte_ChironS_Bluetooth_cal.acdb \
-    vendor/xiaomi/chiron/proprietary/etc/acdbdata/ChironS/Forte_ChironS_General_cal.acdb:system/etc/acdbdata/ChironS/Forte_ChironS_General_cal.acdb \
-    vendor/xiaomi/chiron/proprietary/etc/acdbdata/ChironS/Forte_ChironS_Global_cal.acdb:system/etc/acdbdata/ChironS/Forte_ChironS_Global_cal.acdb \
-    vendor/xiaomi/chiron/proprietary/etc/acdbdata/ChironS/Forte_ChironS_Handset_cal.acdb:system/etc/acdbdata/ChironS/Forte_ChironS_Handset_cal.acdb \
-    vendor/xiaomi/chiron/proprietary/etc/acdbdata/ChironS/Forte_ChironS_Hdmi_cal.acdb:system/etc/acdbdata/ChironS/Forte_ChironS_Hdmi_cal.acdb \
-    vendor/xiaomi/chiron/proprietary/etc/acdbdata/ChironS/Forte_ChironS_Headset_cal.acdb:system/etc/acdbdata/ChironS/Forte_ChironS_Headset_cal.acdb \
-    vendor/xiaomi/chiron/proprietary/etc/acdbdata/ChironS/Forte_ChironS_Speaker_cal.acdb:system/etc/acdbdata/ChironS/Forte_ChironS_Speaker_cal.acdb \
-    vendor/xiaomi/chiron/proprietary/etc/acdbdata/ChironS/Forte_ChironS_workspaceFile.qwsp:system/etc/acdbdata/ChironS/Forte_ChironS_workspaceFile.qwsp \
     vendor/xiaomi/chiron/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
     vendor/xiaomi/chiron/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
     vendor/xiaomi/chiron/proprietary/etc/camera/chiron_imx386_semco_chromatix.xml:system/etc/camera/chiron_imx386_semco_chromatix.xml \
@@ -147,7 +139,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chiron/proprietary/etc/jdi_fhd_video_dsi_panel_ct.xml:system/etc/jdi_fhd_video_dsi_panel_ct.xml \
     vendor/xiaomi/chiron/proprietary/etc/qdcm_calib_data_jdi_fhd_video_dsi_panel.xml:system/etc/qdcm_calib_data_jdi_fhd_video_dsi_panel.xml \
     vendor/xiaomi/chiron/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
-    vendor/xiaomi/chiron/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:system/vendor/etc/sensors/sensor_def_qcomdev.conf \
+    vendor/xiaomi/chiron/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/xiaomi/chiron/proprietary/etc/thermal-engine-8998-high.conf:system/etc/thermal-engine-8998-high.conf \
     vendor/xiaomi/chiron/proprietary/etc/thermal-engine-8998-map.conf:system/etc/thermal-engine-8998-map.conf \
     vendor/xiaomi/chiron/proprietary/etc/thermal-engine-8998.conf:system/etc/thermal-engine-8998.conf \
@@ -201,7 +193,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chiron/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/xiaomi/chiron/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/xiaomi/chiron/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:system/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc \
-    vendor/xiaomi/chiron/proprietary/vendor/etc/init/android.hardware.camera.provider@2.4-service.rc:system/vendor/etc/init/android.hardware.camera.provider@2.4-service.rc \
     vendor/xiaomi/chiron/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
     vendor/xiaomi/chiron/proprietary/vendor/etc/perf-profile1.conf:system/vendor/etc/perf-profile1.conf \
     vendor/xiaomi/chiron/proprietary/vendor/etc/perf-profile2.conf:system/vendor/etc/perf-profile2.conf \

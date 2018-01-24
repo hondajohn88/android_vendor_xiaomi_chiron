@@ -1,4 +1,0 @@
-service mtdservice /vendor/bin/mtd
-    class hal
-    user system
-    group system
