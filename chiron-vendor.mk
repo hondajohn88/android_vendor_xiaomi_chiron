@@ -109,8 +109,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chiron/proprietary/framework/uimremoteclientlibrary.jar:system/framework/uimremoteclientlibrary.jar \
     vendor/xiaomi/chiron/proprietary/framework/uimremotesimlocklibrary.jar:system/framework/uimremotesimlocklibrary.jar \
     vendor/xiaomi/chiron/proprietary/framework/vcard.jar:system/framework/vcard.jar \
-    vendor/xiaomi/chiron/proprietary/framework/vendor.xiaomi.hardware.mtdservice-V1.0-java.jar:system/framework/vendor.xiaomi.hardware.mtdservice-V1.0-java.jar \
-    vendor/xiaomi/chiron/proprietary/framework/vendor.xiaomi.hardware.vsimapp-V1.0-java.jar:system/framework/vendor.xiaomi.hardware.vsimapp-V1.0-java.jar \
     vendor/xiaomi/chiron/proprietary/framework/version-seperation.jar:system/framework/version-seperation.jar \
     vendor/xiaomi/chiron/proprietary/framework/voip-common.jar:system/framework/voip-common.jar \
     vendor/xiaomi/chiron/proprietary/framework/volley.jar:system/framework/volley.jar \
@@ -637,13 +635,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chiron/proprietary/lib/vendor.qti.hardware.tui_comm@1.0.so:system/lib/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/xiaomi/chiron/proprietary/lib/vendor.qti.hardware.vpp@1.1.so:system/lib/vendor.qti.hardware.vpp@1.1.so \
     vendor/xiaomi/chiron/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
-    vendor/xiaomi/chiron/proprietary/lib/vendor.xiaomi.hardware.displayfeature@1.0.so:system/lib/vendor.xiaomi.hardware.displayfeature@1.0.so \
-    vendor/xiaomi/chiron/proprietary/lib/vendor.xiaomi.hardware.mfidoca@1.0.so:system/lib/vendor.xiaomi.hardware.mfidoca@1.0.so \
-    vendor/xiaomi/chiron/proprietary/lib/vendor.xiaomi.hardware.mlipay@1.0.so:system/lib/vendor.xiaomi.hardware.mlipay@1.0.so \
-    vendor/xiaomi/chiron/proprietary/lib/vendor.xiaomi.hardware.mtdservice@1.0.so:system/lib/vendor.xiaomi.hardware.mtdservice@1.0.so \
-    vendor/xiaomi/chiron/proprietary/lib/vendor.xiaomi.hardware.nfcpay@1.0.so:system/lib/vendor.xiaomi.hardware.nfcpay@1.0.so \
-    vendor/xiaomi/chiron/proprietary/lib/vendor.xiaomi.hardware.tidaservice@1.0.so:system/lib/vendor.xiaomi.hardware.tidaservice@1.0.so \
-    vendor/xiaomi/chiron/proprietary/lib/vendor.xiaomi.hardware.vsimapp@1.0.so:system/lib/vendor.xiaomi.hardware.vsimapp@1.0.so \
     vendor/xiaomi/chiron/proprietary/lib/vndk-sp/android.hardware.graphics.allocator@2.0.so:system/lib/vndk-sp/android.hardware.graphics.allocator@2.0.so \
     vendor/xiaomi/chiron/proprietary/lib/vndk-sp/android.hardware.graphics.common@1.0.so:system/lib/vndk-sp/android.hardware.graphics.common@1.0.so \
     vendor/xiaomi/chiron/proprietary/lib/vndk-sp/android.hardware.graphics.mapper@2.0.so:system/lib/vndk-sp/android.hardware.graphics.mapper@2.0.so \
@@ -1280,12 +1271,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chiron/proprietary/lib64/vendor.qti.hardware.vpp@1.1.so:system/lib64/vendor.qti.hardware.vpp@1.1.so \
     vendor/xiaomi/chiron/proprietary/lib64/vendor.qti.hardware.wifi.keystore@1.0.so:system/lib64/vendor.qti.hardware.wifi.keystore@1.0.so \
     vendor/xiaomi/chiron/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
-    vendor/xiaomi/chiron/proprietary/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so:system/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so \
-    vendor/xiaomi/chiron/proprietary/lib64/vendor.xiaomi.hardware.mfidoca@1.0.so:system/lib64/vendor.xiaomi.hardware.mfidoca@1.0.so \
-    vendor/xiaomi/chiron/proprietary/lib64/vendor.xiaomi.hardware.mlipay@1.0.so:system/lib64/vendor.xiaomi.hardware.mlipay@1.0.so \
-    vendor/xiaomi/chiron/proprietary/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so:system/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so \
-    vendor/xiaomi/chiron/proprietary/lib64/vendor.xiaomi.hardware.nfcpay@1.0.so:system/lib64/vendor.xiaomi.hardware.nfcpay@1.0.so \
-    vendor/xiaomi/chiron/proprietary/lib64/vendor.xiaomi.hardware.tidaservice@1.0.so:system/lib64/vendor.xiaomi.hardware.tidaservice@1.0.so \
     vendor/xiaomi/chiron/proprietary/lib64/vndk-sp/android.hardware.graphics.allocator@2.0.so:system/lib64/vndk-sp/android.hardware.graphics.allocator@2.0.so \
     vendor/xiaomi/chiron/proprietary/lib64/vndk-sp/android.hardware.graphics.common@1.0.so:system/lib64/vndk-sp/android.hardware.graphics.common@1.0.so \
     vendor/xiaomi/chiron/proprietary/lib64/vndk-sp/android.hardware.graphics.mapper@2.0.so:system/lib64/vndk-sp/android.hardware.graphics.mapper@2.0.so \
@@ -1544,7 +1529,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chiron/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.nfcpay@1.0-impl.so:system/vendor/lib/hw/vendor.xiaomi.hardware.nfcpay@1.0-impl.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/hw/vibrator.default.so:system/vendor/lib/hw/vibrator.default.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/hw/vr.msm8998.so:system/vendor/lib/hw/vr.msm8998.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/hw/vulkan.msm8998.so:system/vendor/lib/hw/vulkan.msm8998.so \
@@ -3543,7 +3527,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chiron/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib64/hw/vendor.qti.hardware.iop@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.iop@1.0-impl.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.nfcpay@1.0-impl.so:system/vendor/lib64/hw/vendor.xiaomi.hardware.nfcpay@1.0-impl.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib64/hw/vibrator.default.so:system/vendor/lib64/hw/vibrator.default.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib64/hw/vr.msm8998.so:system/vendor/lib64/hw/vr.msm8998.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib64/hw/vulkan.msm8998.so:system/vendor/lib64/hw/vulkan.msm8998.so \
