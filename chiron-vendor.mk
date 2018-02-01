@@ -784,6 +784,27 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chiron/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
     vendor/xiaomi/chiron/proprietary/vendor/qcril.db:system/vendor/qcril.db \
+    vendor/xiaomi/chiron/proprietary/vendor/lib64/soundfx/libbundlewrapper.so:system/vendor/lib64/soundfx/libbundlewrapper.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib/soundfx/libbundlewrapper.so:system/vendor/lib/soundfx/libbundlewrapper.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib64/soundfx/libreverbwrapper.so:system/vendor/lib64/soundfx/libreverbwrapper.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib/soundfx/libreverbwrapper.so:system/vendor/lib/soundfx/libreverbwrapper.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib64/soundfx/libvisualizer.so:system/vendor/lib64/soundfx/libvisualizer.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib/soundfx/libvisualizer.so:system/vendor/lib/soundfx/libvisualizer.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib64/soundfx/libqcomvisualizer.so:system/vendor/lib64/soundfx/libcomvisualizer.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib/soundfx/libqcomvisualizer.so:system/vendor/lib/soundfx/libqcomvisualizer.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib64/soundfx/libdownmix.so:system/vendor/lib64/soundfx/libdownmix.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib/soundfx/libdownmix.so:system/vendor/lib/soundfx/libdownmix.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib/soundfx/libdirac.so:system/vendor/lib/soundfx/libdirac.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib64/soundfx/libldnhncr.so:system/vendor/lib64/soundfx/libldnhncr.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib/soundfx/libldnhncr.so:system/vendor/lib/soundfx/libldnhncr.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib64/soundfx/libeffectproxy.so:system/vendor/lib64/soundfx/libeffectproxy.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib/soundfx/libeffectproxy.so:system/vendor/lib/soundfx/libeffectproxy.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib64/soundfx/libqcompostprocbundle.so:system/vendor/lib64/soundfx/libqcompostprocbundle.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib/soundfx/libqcompostprocbundle.so:system/vendor/lib/soundfx/libqcompostprocbundle.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib64/soundfx/libqcomvoiceprocessing.so:system/vendor/lib64/soundfx/libqcomvoiceprocessing.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib/soundfx/libqcomvoiceprocessing.so:system/vendor/lib/soundfx/libqcomvoiceprocessing.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib64/soundfx/libvolumelistener.so:system/vendor/lib64/soundfx/libvolumelistener.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib/soundfx/libvolumelistener.so:system/vendor/lib/soundfx/libvolumelistener.so
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
