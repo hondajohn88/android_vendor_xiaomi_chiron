@@ -1210,4 +1210,5 @@ PRODUCT_PACKAGES += \
     TimeService \
     colorservice \
     WfdCommon \
-    qcrilhook
+    qcrilhook \
+    GCam
