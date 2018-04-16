@@ -1211,4 +1211,5 @@ PRODUCT_PACKAGES += \
     colorservice \
     WfdCommon \
     qcrilhook \
-    GCam
+    GCam \
+    Snap
