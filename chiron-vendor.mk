@@ -1212,4 +1212,29 @@ PRODUCT_PACKAGES += \
     WfdCommon \
     qcrilhook \
     GCam \
-    Snap
+    Snap \
+    AmberAccent \
+    BlackAccent \
+    BlueAccent \
+    BlueGreyAccent \
+    BrownAccent \
+    CyanAccent \
+    DeepOrangeAccent \
+    DeepPurpleAccent \
+    CarbonDark \
+    GBoardDark \
+    GreenAccent \
+    GreyAccent \
+    IndigoAccent \
+    LightBlueAccent \
+    LightGreenAccent \
+    LimeAccent \
+    OrangeAccent \
+    PinkAccent \
+    PurpleAccent \
+    RedAccent \
+    SettingsDark \
+    SystemDark \
+    TealAccent \
+    YellowAccent \
+    WhiteAccent
